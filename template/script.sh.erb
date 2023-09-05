@@ -26,4 +26,5 @@ echo "TIMING - Starting jupyter at: $(date)"
 
 # Launch the Jupyter Notebook Server
 set -x
+rsync --ignore-existing -a /opt/sklearn_tutorial/notebook/ ~/ML101_notebooks/
 jupyter lab --config="${CONFIG_FILE}" <%= context.extra_jupyter_args %>
