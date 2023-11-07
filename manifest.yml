@@ -1,5 +1,5 @@
 ---
-name: ML101 JupyterLab
+name: ML101
 category: Interactive Apps
 subcategory: Servers
 role: batch_connect
